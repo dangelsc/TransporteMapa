@@ -1,0 +1,41 @@
+@media print{
+	.menu-nav,.menu,.footer{
+		display: none;
+	}
+	.content-table{
+		width: 100%;
+		height: 200px !important;
+		background-image: url(../imagenes/banner.png)!important;
+		background-size: 100% 80% !important;
+		background-repeat: no-repeat !important;
+		background-origin: 0 0 !important;
+		margin-top: -5px !important;
+	
+	}
+
+	.table-print{
+		visibility: hidden;
+
+	}
+	.prueba{
+		background:#d32f2f
+	}
+	.table-ctn{
+		margin-top: 50px !important
+	}
+	tbody{
+
+		margin-top: 100px !important;
+	}
+	tbody>tr>th{
+		border:1px solid black !important
+	}
+	tbody>tr:nth-child(even){
+		background: rgba(225,245,125,0.5) !important;
+	
+	}
+	thead>tr>td{
+		background-color: none !important;
+		border:1px solid black !important
+	}
+}
